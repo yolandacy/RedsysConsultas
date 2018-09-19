@@ -13,7 +13,10 @@ namespace RedsysConsultas.Tests
             {
                 public static DatosTpvRedsysModel DatosTpv()
                 {
-                    return new DatosTpvRedsysModel() { TpvFirmaKey = "la firma de tu tpv", TpvNumComercio = "número comercio unos 9 dígitos ", TpvNumTerminal = "Terminal 1, 2 o 3" };
+                    return new DatosTpvRedsysModel() {
+                        TpvFirmaKey = "la firma de tu tpv",
+                        TpvNumComercio = "número comercio unos 9 dígitos ",
+                        TpvNumTerminal = "Terminal 1, 2 o 3" };
                 }
                 public static string PedidoTpv()
                 {
